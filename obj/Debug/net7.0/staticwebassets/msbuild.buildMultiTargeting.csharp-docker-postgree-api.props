@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\csharp-docker-postgree-api.props" />
+</Project>

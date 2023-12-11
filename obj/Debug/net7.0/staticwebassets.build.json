@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tuhkv5ddxWlOYC06FHGMf+5niQwS8wvaQKajLphNTyY=",
+  "Source": "csharp-docker-postgree-api",
+  "BasePath": "_content/csharp-docker-postgree-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
