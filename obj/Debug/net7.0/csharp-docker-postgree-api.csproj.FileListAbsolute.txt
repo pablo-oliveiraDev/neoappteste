@@ -274,3 +274,17 @@ D:\dados\projetosC#\csharp-docker-postgree-api\obj\Debug\net7.0\refint\csharp-do
 D:\dados\projetosC#\csharp-docker-postgree-api\obj\Debug\net7.0\csharp-docker-postgree-api.pdb
 D:\dados\projetosC#\csharp-docker-postgree-api\obj\Debug\net7.0\csharp-docker-postgree-api.genruntimeconfig.cache
 D:\dados\projetosC#\csharp-docker-postgree-api\obj\Debug\net7.0\ref\csharp-docker-postgree-api.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\obj\Debug\net7.0\csharp-docker-postgree-api.sourcelink.json
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\dados\projetosC#\csharp-docker-postgree-api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

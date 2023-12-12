@@ -2,7 +2,6 @@
 using csharp_docker_postgree_api.Interfaces;
 using csharp_docker_postgree_api.Models;
 using Microsoft.EntityFrameworkCore;
-using csharp_docker_postgree_api.Responses;
 
 
 namespace csharp_docker_postgree_api.Repository
@@ -18,6 +17,7 @@ namespace csharp_docker_postgree_api.Repository
         public async Task<List<Patient>> GetAllPatient()
         {
             return await _context.Patient.ToListAsync();
+
         }
 
         public async Task<Patient> GetPatientById(int id)

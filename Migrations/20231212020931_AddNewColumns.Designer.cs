@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using csharp_docker_postgree_api.Data;
@@ -11,9 +12,11 @@ using csharp_docker_postgree_api.Data;
 namespace csharp_docker_postgree_api.Migrations
 {
     [DbContext(typeof(UserContext))]
-    partial class UserContextModelSnapshot : ModelSnapshot
+    [Migration("20231212020931_AddNewColumns")]
+    partial class AddNewColumns
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,9 +67,8 @@ namespace csharp_docker_postgree_api.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("DoctorId"));
 
-                    b.Property<string>("CPF")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int>("CPF")
+                        .HasColumnType("integer");
 
                     b.Property<string>("CRM")
                         .IsRequired()
@@ -143,9 +145,8 @@ namespace csharp_docker_postgree_api.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("integer");
 
-                    b.Property<string>("CPF")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int>("CPF")
+                        .HasColumnType("integer");
 
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("timestamp with time zone");

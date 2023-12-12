@@ -16,6 +16,10 @@ namespace csharp_docker_postgree_api.Models
         public string Gender { get; set; }
         public DateTime DateOfBirth { get; set; }
         public float Weigth { get; set; }
+        [Required(ErrorMessage = "The CPF is mandatory!")]
+        public string CPF { get; set; }
+        [Required(ErrorMessage = "The Password is mandatory!")]
+        public string Password { get; set; }
         [JsonIgnore]
         public virtual ICollection<Consult>? Consult { get; set; } 
     }

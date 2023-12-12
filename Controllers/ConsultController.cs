@@ -1,9 +1,11 @@
 ﻿using csharp_docker_postgree_api.Interfaces;
 using csharp_docker_postgree_api.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace csharp_docker_postgree_api.Controllers
 {
+    [Authorize(Roles ="Doctor")]
     [ApiController]
     [Route("api/[controller]")]
     public class ConsultController : ControllerBase
